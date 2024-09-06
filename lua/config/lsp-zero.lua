@@ -24,23 +24,6 @@ lsp_zero.extend_lspconfig({
 })
 
 
--- set up auto completion
-local cmp = require('cmp')
-
-cmp.setup({
-  sources = {
-    {name = 'nvim_lsp'},
-  },
-  snippet = {
-    expand = function(args)
-      -- You need Neovim v0.10 to use vim.snippet
-      vim.snippet.expand(args.body)
-    end,
-  },
-  mapping = cmp.mapping.preset.insert({}),
-})
-
-
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
@@ -117,3 +100,21 @@ require('mason-lspconfig').setup({
 
   },
 })
+
+
+-- set up auto completion
+local cmp = require('cmp')
+
+cmp.setup({
+  sources = {
+    {name = 'nvim_lsp'},
+  },
+  snippet = {
+    expand = function(args)
+      -- You need Neovim v0.10 to use vim.snippet
+      vim.snippet.expand(args.body)
+    end,
+  },
+  mapping = cmp.mapping.preset.insert({}),
+})
+
