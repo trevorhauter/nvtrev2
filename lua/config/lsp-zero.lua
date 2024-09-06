@@ -32,16 +32,15 @@ require('mason-lspconfig').setup({
     --'emmet_ls',
 
     -- For js, react, and ts development
-    --'eslint',
+    -- I think this requires further development for situations where there isn't a base eslint file
+    'eslint',
     'lua_ls',
-
-    -- self explanatory...
-    --'html',
 
     -- for python
     'pyright',
 
     -- for javascript and typescript
+    -- TODO: Update this to ts_ls... but it keeps yelling at me.
     'tsserver',
 
     -- The best CSS LSP money can buy 
