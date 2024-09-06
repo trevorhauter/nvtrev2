@@ -12,6 +12,7 @@ Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - A fast and stylish status line for neovim
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - For smooth scrolling. It's amazing!
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - Because you should never have to manually comment a line out yourself!
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - For graceful auto completion for parenthesis, brackets, curly braces, quotes, etc.
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - A beautiful file explorer! Epic!
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting done right
 - [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze
