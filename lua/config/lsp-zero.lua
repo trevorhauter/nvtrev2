@@ -32,7 +32,7 @@ require('mason-lspconfig').setup({
     --'emmet_ls',
 
     -- For js, react, and ts development
-    -- I think this requires further development for situations where there isn't a base eslint file
+    -- This might work but I need to test it with a config
     'eslint',
     'lua_ls',
 
@@ -54,6 +54,18 @@ require('mason-lspconfig').setup({
       require('lspconfig')[server_name].setup({})
     end,
 
+    --eslint
+    eslint = function()
+      lspconfig.eslint.setup({
+        --- ...
+        on_attach = function(client, bufnr)
+          vim.api.nvim_create_autocmd("BufWritePre", {
+            buffer = bufnr,
+            command = "EslintFixAll",
+          })
+        end,
+      })
+    end,
     --pyright
     pyright = function()
       lspconfig.pyright.setup({
