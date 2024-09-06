@@ -24,6 +24,7 @@ lsp_zero.extend_lspconfig({
 })
 
 
+local lspconfig = require('lspconfig')
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
@@ -31,22 +32,29 @@ require('mason-lspconfig').setup({
     --'emmet_ls',
 
     -- For js, react, and ts development
-    'eslint',
+    --'eslint',
+    'lua_ls',
 
     -- self explanatory...
-    'html',
+    --'html',
 
     -- for python
     'pyright', 
 
     -- The best CSS LSP money can buy 
-    'tailwindcss',
+    --'tailwindcss',
 
   },
   handlers = {
+    -- this first function is the "default handler"
+    -- it applies to every language server without a "custom handler"
+    function(server_name)
+      require('lspconfig')[server_name].setup({})
+    end,
+    
     --pyright
     pyright = function()
-      require('lspconfig').pyright.setup({
+      lspconfig.pyright.setup({
         settings = {
           python = {
             analysis = {
