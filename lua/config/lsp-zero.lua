@@ -44,40 +44,6 @@ require('mason-lspconfig').setup({
 
   },
   handlers = {
-    lsp_zero.default_setup,
-
-    -- emmet_ls
-    --emmet_ls = function()
-      --local capabilities = vim.lsp.protocol.make_client_capabilities()
-      --capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-      --require('lspconfig').emmet_ls.setup({
-        --capabilities = capabilities,
-      --})
-    --end,
-
-    -- eslint
-    eslint = function()
-      require('lspconfig').eslint.setup({
-        on_attach = function(client, bufnr)
-          vim.api.nvim_create_autocmd("BufWritePre", {
-            buffer = bufnr,
-            command = "EslintFixAll",
-          })
-        end,
-      })
-    end,
-
-    --html
-    html = function()
-      local capabilities = vim.lsp.protocol.make_client_capabilities()
-      capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-      require('lspconfig').html.setup ({
-        capabilities = capabilities,
-      })
-    end,
-
     --pyright
     pyright = function()
       require('lspconfig').pyright.setup({
@@ -91,11 +57,6 @@ require('mason-lspconfig').setup({
           },
         },
       })
-    end,
-
-    --tailwindcss
-    tailwindcss = function()
-      require('lspconfig').tailwindcss.setup({})
     end,
 
   },
