@@ -45,7 +45,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
     -- Helpful shortcuts for web development
-    'emmet_ls',
+    --'emmet_ls',
 
     -- For js, react, and ts development
     'eslint',
@@ -64,14 +64,14 @@ require('mason-lspconfig').setup({
     lsp_zero.default_setup,
 
     -- emmet_ls
-    emmet_ls = function()
-      local capabilities = vim.lsp.protocol.make_client_capabilities()
-      capabilities.textDocument.completion.completionItem.snippetSupport = true
+    --emmet_ls = function()
+      --local capabilities = vim.lsp.protocol.make_client_capabilities()
+      --capabilities.textDocument.completion.completionItem.snippetSupport = true
 
-      require('lspconfig').emmet_ls.setup({
-        capabilities = capabilities,
-      })
-    end,
+      --require('lspconfig').emmet_ls.setup({
+        --capabilities = capabilities,
+      --})
+    --end,
 
     -- eslint
     eslint = function()
