@@ -13,6 +13,12 @@ vim.opt.termguicolors = true
 --
 -- == END NVIM-TREE CONFIG ==
 
+-- == BEGIN VIMWIKI CONFIG ==
+vim.o.compatible = false 
+vim.cmd('filetype plugin on')  
+vim.cmd('syntax on')  
+-- == END VIMWIKI CONFIG ==
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 4
