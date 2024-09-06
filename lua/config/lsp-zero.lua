@@ -39,7 +39,10 @@ require('mason-lspconfig').setup({
     --'html',
 
     -- for python
-    'pyright', 
+    'pyright',
+
+    -- for javascript and typescript
+    'tsserver',
 
     -- The best CSS LSP money can buy 
     --'tailwindcss',
@@ -51,7 +54,7 @@ require('mason-lspconfig').setup({
     function(server_name)
       require('lspconfig')[server_name].setup({})
     end,
-    
+
     --pyright
     pyright = function()
       lspconfig.pyright.setup({
