@@ -15,3 +15,4 @@ Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting done right
 - [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find files and locations all throughout our projects
+- [vimwiki](https://github.com/vimwiki/vimwiki) - To take notes, document, and organize all of our secrets! <3
