@@ -34,6 +34,7 @@ require('mason-lspconfig').setup({
     -- For js, react, and ts development
     -- This might work but I need to test it with a config
     'eslint',
+    'html',
     'lua_ls',
 
     -- for python
@@ -64,6 +65,16 @@ require('mason-lspconfig').setup({
             command = "EslintFixAll",
           })
         end,
+      })
+    end,
+    --html NOTE THIS ONLY WORKS FOR regular html... not django templates!
+    html = function()
+      --Enable (broadcasting) snippet capability for completion
+      local capabilities = vim.lsp.protocol.make_client_capabilities()
+      capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+      lspconfig.html.setup ({
+        capabilities = capabilities,
       })
     end,
     --pyright
