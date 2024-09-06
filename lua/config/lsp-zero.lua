@@ -28,13 +28,20 @@ local lspconfig = require('lspconfig')
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
-    -- Helpful shortcuts for web development
+    -- For CSS, duh!
+    'cssls',
+
+    -- Makes web development faster... mostly html tag creation stuff
+    -- Might turn this back on...
     --'emmet_ls',
 
-    -- For js, react, and ts development
-    -- This might work but I need to test it with a config
+    -- For js, react, and ts linting.
+    -- NOTE: REQUIRES ESLINT FILE IN ROOT DIR OF PROJECT
     'eslint',
+
+    -- for html (NOT DJANGO TEMPLATES)
     'html',
+    -- for lua!
     'lua_ls',
 
     -- for python
@@ -44,15 +51,23 @@ require('mason-lspconfig').setup({
     -- TODO: Update this to ts_ls... but it keeps yelling at me.
     'tsserver',
 
-    -- The best CSS LSP money can buy 
-    --'tailwindcss',
-
   },
   handlers = {
     -- this first function is the "default handler"
     -- it applies to every language server without a "custom handler"
     function(server_name)
       require('lspconfig')[server_name].setup({})
+    end,
+
+    --cssls
+    cssls = function()
+      --Enable (broadcasting) snippet capability for completion
+      local capabilities = vim.lsp.protocol.make_client_capabilities()
+      capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+      lspconfig.cssls.setup {
+        capabilities = capabilities,
+      }
     end,
 
     --eslint
@@ -67,7 +82,9 @@ require('mason-lspconfig').setup({
         end,
       })
     end,
-    --html NOTE THIS ONLY WORKS FOR regular html... not django templates!
+
+    --html 
+    --NOTE THIS ONLY WORKS FOR regular html... not django templates!
     html = function()
       --Enable (broadcasting) snippet capability for completion
       local capabilities = vim.lsp.protocol.make_client_capabilities()
@@ -77,6 +94,7 @@ require('mason-lspconfig').setup({
         capabilities = capabilities,
       })
     end,
+
     --pyright
     pyright = function()
       lspconfig.pyright.setup({
