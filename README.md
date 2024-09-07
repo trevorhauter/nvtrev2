@@ -7,8 +7,9 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 
 ## Links
 - [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
-- [Quickstart guide](https://github.com/trevorhauter/nvtrev2/wiki/Quickstart)
 - [Keybinds & Commands](https://github.com/trevorhauter/nvtrev2/wiki/Keybinds-%26-Commands)
+- [Quickstart guide](https://github.com/trevorhauter/nvtrev2/wiki/Quickstart)
+
 
 ## Plugins
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
