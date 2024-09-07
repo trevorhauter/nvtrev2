@@ -1,10 +1,9 @@
-# nvtrev2
-### UNDER CONSTRUCTION
-"The elegantly named successor to the critically acclaimed nvtrev" - Trev
+# nvtrev2 (UNDER CONSTRUCTION)
+### "The elegantly named successor to the critically acclaimed nvtrev" - Trev
 
 This is my neovim config, heavily documented, simple to get running, and made to be modified. I use this for Python, HTML/CSS, Javascript, and react development. But it's easy to modify so you can use it on anything you like. 
 
-This isn't really like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), it's literally just my config, but I like making documentation and this is a good reference if you'd like to build your own. If you do happen to have a similar workflow to me, this could be an easy starting point.
+This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), it's literally just my config, but I like making documentation and this is a good reference if you'd like to build your own. If you do happen to have a similar workflow to me, this could be an easy starting point.
 
 ## Links
 - [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
