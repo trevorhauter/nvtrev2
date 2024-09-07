@@ -10,6 +10,7 @@ Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Beautiful git decorations in our editor
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - To quickly switch between a group of files we are working on!
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - A fast and stylish status line for neovim
+- [lsp-zero](VonHeikemen/lsp-zero.nvim) - Used in tandem with Mason for language server support. [See here for lsp-zero dependencies](https://github.com/trevorhauter/nvtrev2/blob/main/lua/plugins/lsp-zero.lua).
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - For smooth scrolling. It's amazing!
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - Because you should never have to manually comment a line out yourself!
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - For graceful auto completion for parenthesis, brackets, curly braces, quotes, etc.
@@ -19,3 +20,4 @@ Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find files and locations all throughout our projects
 - [vim-surround](https://github.com/tpope/vim-surround) - For manipulation of surrounding html tags, curly braces, quotes, etc
 - [vimwiki](https://github.com/vimwiki/vimwiki) - To take notes, document, and organize all of our secrets! <3
+- [zenmode](https://github.com/folke/zen-mode.nvim) - For distraction free focus time in neovim
