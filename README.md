@@ -30,9 +30,9 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 
 
 ## Current supported languages
-- css
-- html
+- CSS
+- HTML
 - Javascript (includes linting with eslint and support for react)
-- lua
+- LUA
 - Python
 - Typescript (includes linting with eslint and support for react)
