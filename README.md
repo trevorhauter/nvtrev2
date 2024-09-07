@@ -1,14 +1,21 @@
 # nvtrev2
-The elegantly named successor to the critically acclaimed nvtrev
+### UNDER CONSTRUCTION
+"The elegantly named successor to the critically acclaimed nvtrev" - Trev
 
-This is still under construction...
+This is my neovim config, heavily documented, simple to get running, and made to be modified. I use this for Python, HTML/CSS, Javascript, and react development. But it's easy to modify so you can use it on anything you like. 
 
-Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
+This isn't really like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), it's literally just my config, but I like making documentation and this is a good reference if you'd like to build your own. If you do happen to have a similar workflow to me, this could be an easy starting point.
+
+## Links
+- [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
+- [Quickstart guide](https://github.com/trevorhauter/nvtrev2/wiki/Quickstart)
+- [Keybinds](https://github.com/trevorhauter/nvtrev2/wiki/Keybinds)
 
 ## Plugins
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
+- [LazyVim](https://github.com/LazyVim/LazyVim) - PLUGIN MANAGER
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - STATUS LINE
 - [lsp-zero (w/ mason)](VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - SMOOTH SCROLLING
