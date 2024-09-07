@@ -6,18 +6,18 @@ This is still under construction...
 Check out the [nvtrev2 wiki](https://github.com/trevorhauter/nvtrev2/wiki)
 
 ## Plugins
-- [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - A theme that is easy on the eyes (literally!)
-- [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Beautiful git decorations in our editor
-- [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - To quickly switch between a group of files we are working on!
-- [lualine](https://github.com/nvim-lualine/lualine.nvim) - A fast and stylish status line for neovim
-- [lsp-zero](VonHeikemen/lsp-zero.nvim) - Used in tandem with Mason for language server support. [See here for lsp-zero dependencies](https://github.com/trevorhauter/nvtrev2/blob/main/lua/plugins/lsp-zero.lua).
-- [neoscroll](https://github.com/karb94/neoscroll.nvim) - For smooth scrolling. It's amazing!
-- [nerdcommenter](https://github.com/preservim/nerdcommenter) - Because you should never have to manually comment a line out yourself!
-- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - For graceful auto completion for parenthesis, brackets, curly braces, quotes, etc.
-- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - A beautiful file explorer! Epic!
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting done right
-- [quick-scope](https://github.com/unblevable/quick-scope) - To make in-line navigation a breeze
-- [telescope](https://github.com/nvim-telescope/telescope.nvim) - To help us find files and locations all throughout our projects
-- [vim-surround](https://github.com/tpope/vim-surround) - For manipulation of surrounding html tags, curly braces, quotes, etc
-- [vimwiki](https://github.com/vimwiki/vimwiki) - To take notes, document, and organize all of our secrets! <3
-- [zenmode](https://github.com/folke/zen-mode.nvim) - For distraction free focus time in neovim
+- [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
+- [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
+- [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
+- [lualine](https://github.com/nvim-lualine/lualine.nvim) - STATUS LINE
+- [lsp-zero (w/ mason)](VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
+- [neoscroll](https://github.com/karb94/neoscroll.nvim) - SMOOTH SCROLLING
+- [nerdcommenter](https://github.com/preservim/nerdcommenter) - AUTO COMMENT
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - AUTO COMPLETE (Parenthesis, brackets, quotes, etc)
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - FILE EXPLORER
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - SYNTAX HIGHLIGHTING
+- [quick-scope](https://github.com/unblevable/quick-scope) - IN-LINE NAVIGATION
+- [telescope](https://github.com/nvim-telescope/telescope.nvim) - FUZZY FILE FINDER
+- [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
+- [vimwiki](https://github.com/vimwiki/vimwiki) - NOTE TAKING & ORGANIZATION
+- [zenmode](https://github.com/folke/zen-mode.nvim) - DISTRACTION FREE EDITING
