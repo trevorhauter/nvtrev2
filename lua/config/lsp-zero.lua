@@ -49,17 +49,13 @@ require('mason-lspconfig').setup({
 
     -- for javascript and typescript
     -- TODO: Update this to ts_ls... but it keeps yelling at me.
-    'tsserver',
+    'ts_ls',
 
   },
   handlers = {
     -- this first function is the "default handler"
     -- it applies to every language server without a "custom handler"
     function(server_name)
-      -- https://github.com/neovim/nvim-lspconfig/pull/3232
-      if server_name == "tsserver" then
-        server_name = "ts_ls"
-      end
       require('lspconfig')[server_name].setup({})
     end,
 
