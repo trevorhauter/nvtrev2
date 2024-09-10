@@ -8,5 +8,11 @@ return {
     vim.keymap.set('n', '<leader>ps', function()
       builtin.grep_string({ search = vim.fn.input("Grep > ") });
     end)
+    vim.keymap.set('v', '<leader>pg', function()
+      -- Yank the visually selected text to the unnamed register
+      vim.cmd('normal! "vy')
+      local search = vim.fn.getreg('v')
+      builtin.grep_string({ search = search })
+    end)
   end,
 }
