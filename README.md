@@ -17,7 +17,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
 - [LazyVim](https://github.com/LazyVim/LazyVim) - PLUGIN MANAGER
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - STATUS LINE
-- [lsp-zero (w/ mason)](VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
+- [lsp-zero (w/ mason)](https://github.com/VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - SMOOTH SCROLLING
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - AUTO COMMENT
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - AUTO COMPLETE (Parenthesis, brackets, quotes, etc)
