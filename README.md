@@ -13,6 +13,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 
 ## Plugins
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
+- [gitportal](https://github.com/trevorhauter/nvtrev2) - BRIDGES GAP BETWEEN GITHUB FILE EXPLORER AND NEOVIM 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
 - [LazyVim](https://github.com/LazyVim/LazyVim) - PLUGIN MANAGER
