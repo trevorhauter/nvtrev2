@@ -1,5 +1,5 @@
 return {
-  'trevorhauter/gitportal.nvim',
+  dir='/Users/trevorhauter/Code/gitportal.nvim',
   config = function()
     require('gitportal')
   end,
