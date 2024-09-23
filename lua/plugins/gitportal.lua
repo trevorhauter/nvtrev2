@@ -1,5 +1,5 @@
 return {
-  'trevorhauter/gitportal.nvim',
+  dir='/Users/trevorhauter/Code/gitportal.nvim',
   config = function()
     local gitportal = require("gitportal.core")
     vim.keymap.set("v", "<leader>gp", function() gitportal.open_file_in_browser() end)
