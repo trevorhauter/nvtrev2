@@ -1,4 +1,4 @@
-# nvtrev2 (UNDER CONSTRUCTION)
+# nvtrev2
 "The elegantly named successor to the critically acclaimed nvtrev" - Trev
 
 This is my neovim config, documented, and simple to get running.
