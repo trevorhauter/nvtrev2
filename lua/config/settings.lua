@@ -14,9 +14,9 @@ vim.opt.termguicolors = true
 -- == END NVIM-TREE CONFIG ==
 
 -- == BEGIN VIMWIKI CONFIG ==
-vim.o.compatible = false 
-vim.cmd('filetype plugin on')  
-vim.cmd('syntax on')  
+vim.o.compatible = false
+vim.cmd('filetype plugin on')
+vim.cmd('syntax on')
 -- == END VIMWIKI CONFIG ==
 
 -- AUTO FORMATTING STUFF
@@ -28,7 +28,7 @@ vim.api.nvim_create_autocmd(
         pattern = "*.py",
         group = "AutoFormat",
         callback = function()
-            vim.cmd("silent !black --quiet %")            
+            vim.cmd("silent !black --quiet %")
             vim.cmd("edit")
         end,
     }
