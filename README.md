@@ -26,7 +26,6 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - SYNTAX HIGHLIGHTING
 - [quick-scope](https://github.com/unblevable/quick-scope) - IN-LINE NAVIGATION
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - FUZZY FILE FINDER
-- [vim-matchup](https://github.com/andymass/vim-matchup) - HIGHLIGHT AND ENABLE NAVIATION OF PAIRS (HTML tags, parents, etc) 
 - [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
 - [vimwiki](https://github.com/vimwiki/vimwiki) - NOTE TAKING & ORGANIZATION
 - [zenmode](https://github.com/folke/zen-mode.nvim) - DISTRACTION FREE EDITING

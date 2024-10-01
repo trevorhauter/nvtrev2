@@ -161,9 +161,9 @@ end
 
 -- Set keybinding to disable eslint in the current buffer
 vim.api.nvim_set_keymap(
-  'n',
+  'n', 
   '<leader>es', -- Replace <leader>de with your preferred key combo
-  '<cmd>lua disable_eslint_for_current_buffer()<CR>',
+  '<cmd>lua disable_eslint_for_current_buffer()<CR>', 
   { noremap = true, silent = true }
 )
 
