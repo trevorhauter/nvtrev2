@@ -3,9 +3,7 @@ return {
   config = function()
     local gitportal = require("gitportal")
 
-    gitportal.setup({
-      always_include_current_line = true
-    })
+    gitportal.setup()
 
     vim.keymap.set("n", "<leader>gp", function() gitportal.open_file_in_browser() end)
     vim.keymap.set("v", "<leader>gp", function() gitportal.open_file_in_browser() end)
