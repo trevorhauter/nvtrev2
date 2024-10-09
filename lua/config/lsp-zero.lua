@@ -32,7 +32,7 @@ require('mason-lspconfig').setup({
     'cssls',
 
     -- Makes web development faster... mostly html tag creation stuff
-    'emmet_ls',
+    'emmet_language_server',
 
     -- For js, react, and ts linting.
     -- NOTE: REQUIRES ESLINT FILE IN ROOT DIR OF PROJECT
