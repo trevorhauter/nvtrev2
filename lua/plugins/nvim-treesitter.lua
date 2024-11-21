@@ -25,6 +25,7 @@ return {
         "typescript",
         "vim",
         "vimdoc",
+        "yaml",
       },
       sync_install = false,
       highlight = { enable = true },
