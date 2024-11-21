@@ -15,36 +15,30 @@ vim.opt.termguicolors = true
 
 -- == BEGIN VIMWIKI CONFIG ==
 vim.o.compatible = false
-vim.cmd('filetype plugin on')
-vim.cmd('syntax on')
+vim.cmd("filetype plugin on")
+vim.cmd("syntax on")
 -- == END VIMWIKI CONFIG ==
 
 -- AUTO FORMATTING STUFF
 vim.api.nvim_create_augroup("AutoFormat", {})
 
-vim.api.nvim_create_autocmd(
-    "BufWritePost",
-    {
-        pattern = "*.py",
-        group = "AutoFormat",
-        callback = function()
-            vim.cmd("silent !black --quiet %")
-            vim.cmd("edit")
-        end,
-    }
-)
+vim.api.nvim_create_autocmd("BufWritePost", {
+  pattern = "*.py",
+  group = "AutoFormat",
+  callback = function()
+    vim.cmd("silent !black --quiet %")
+    vim.cmd("edit")
+  end,
+})
 
-vim.api.nvim_create_autocmd(
-    "BufWritePost",
-    {
-        pattern = "*.lua",
-        group = "AutoFormat",
-        callback = function()
-            vim.cmd("silent !stylua %")
-            vim.cmd("edit")
-        end,
-    }
-)
+vim.api.nvim_create_autocmd("BufWritePost", {
+  pattern = "*.lua",
+  group = "AutoFormat",
+  callback = function()
+    vim.cmd("silent !stylua %")
+    vim.cmd("edit")
+  end,
+})
 -- END AUTO FORMATTING STUFF
 
 vim.opt.nu = true

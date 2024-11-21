@@ -1,6 +1,6 @@
 return {
-  'folke/zen-mode.nvim',
+  "folke/zen-mode.nvim",
   keys = {
-    {'<leader>ze', ':ZenMode<CR>', { noremap = true, silent = true }},
-  }
+    { "<leader>ze", ":ZenMode<CR>", { noremap = true, silent = true } },
+  },
 }
