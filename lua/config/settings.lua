@@ -33,6 +33,18 @@ vim.api.nvim_create_autocmd(
         end,
     }
 )
+
+vim.api.nvim_create_autocmd(
+    "BufWritePost",
+    {
+        pattern = "*.lua",
+        group = "AutoFormat",
+        callback = function()
+            vim.cmd("silent !stylua %")
+            vim.cmd("edit")
+        end,
+    }
+)
 -- END AUTO FORMATTING STUFF
 
 vim.opt.nu = true
