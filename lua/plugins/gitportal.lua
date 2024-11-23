@@ -1,5 +1,6 @@
 return {
-  "trevorhauter/gitportal.nvim",
+  "tronikelis/gitportal.nvim",
+  branch = "close/40/def_commands",
   config = function()
     local gitportal = require("gitportal")
 
