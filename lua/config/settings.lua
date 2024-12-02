@@ -20,6 +20,7 @@ vim.cmd("syntax on")
 -- == END VIMWIKI CONFIG ==
 
 -- AUTO FORMATTING STUFF
+-- Pretty sure this is a garbage way to do this but w/e for now
 vim.api.nvim_create_augroup("AutoFormat", {})
 
 vim.api.nvim_create_autocmd("BufWritePost", {
@@ -39,6 +40,16 @@ vim.api.nvim_create_autocmd("BufWritePost", {
         vim.cmd("edit")
     end,
 })
+
+vim.api.nvim_create_autocmd("BufWritePost", {
+    pattern = "*.c",
+    group = "AutoFormat",
+    callback = function()
+        vim.cmd("silent! !clang-format -i %")
+        vim.cmd("edit")
+    end,
+})
+
 -- END AUTO FORMATTING STUFF
 
 vim.opt.nu = true

@@ -29,6 +29,8 @@ require("mason-lspconfig").setup({
         -- For CSS, duh!
         "cssls",
 
+        "clangd",
+
         -- Makes web development faster... mostly html tag creation stuff
         "emmet_language_server",
 
