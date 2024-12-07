@@ -24,7 +24,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - AUTO COMPLETE (Parenthesis, brackets, quotes, etc)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - FILE EXPLORER
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - SYNTAX HIGHLIGHTING
-- [nvim-treesitter-context](nvim-treesitter/nvim-treesitter-context) - GIVES YOU CONTEXT SURROUNDING YOUR LOCATION (e.g. what class or method you are in)
+- [nvim-treesitter-context](nvim-treesitter/nvim-treesitter-context) - LETS YOU KNOW WHERE YOU ARE (class, func, etc)
 - [quick-scope](https://github.com/unblevable/quick-scope) - IN-LINE NAVIGATION
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - FUZZY FILE FINDER
 - [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
