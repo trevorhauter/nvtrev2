@@ -28,7 +28,11 @@ require("lazy").setup({
     -- colorscheme that will be used when installing plugins.
     install = {},
     -- automatically check for plugin updates
-    checker = { enabled = true },
+    checker = {
+        enabled = true,
+        notify = true,
+        frequency = 86400, -- check for updates once a day
+    },
 })
 
 require("config.lsp-zero")
