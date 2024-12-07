@@ -52,6 +52,19 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 
 -- END AUTO FORMATTING STUFF
 
+--CODE FOLDING TIMEEEE
+vim.o.foldmethod = "expr"
+vim.o.foldexpr = "nvim_treesitter#foldexpr()"
+vim.o.foldtext =
+    [[substitute(getline(v:foldstart),'\\t',repeat('\ ',&tabstop),'g').'...'.trim(getline(v:foldend)) . ' (' . (v:foldend - v:foldstart + 1) . ' lines)']]
+vim.opt.fillchars:append({ fold = " " })
+vim.o.foldnestmax = 3
+vim.o.foldminlines = 1
+vim.o.foldenable = false
+vim.o.foldcolumn = "1" -- '0' is not bad
+vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+vim.o.foldlevelstart = 99
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.tabstop = 4
