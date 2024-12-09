@@ -11,6 +11,7 @@ return {
                 "c_sharp",
                 "cmake",
                 "css",
+                "dockerfile",
                 "gitcommit",
                 "gitignore",
                 "html",
