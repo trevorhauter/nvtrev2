@@ -5,22 +5,12 @@ return {
 
         gitportal.setup()
 
-        vim.keymap.set("n", "<leader>gp", function()
-            gitportal.open_file_in_browser()
-        end)
-        vim.keymap.set("v", "<leader>gp", function()
-            gitportal.open_file_in_browser()
-        end)
-        vim.keymap.set("n", "<leader>ig", function()
-            gitportal.open_file_in_neovim()
-        end)
+        vim.keymap.set("n", "<leader>gp", gitportal.open_file_in_browser)
+        vim.keymap.set("v", "<leader>gp", gitportal.open_file_in_browser)
 
-        vim.keymap.set("n", "<leader>gc", function()
-            gitportal.copy_link_to_clipboard()
-        end)
+        vim.keymap.set("n", "<leader>ig", gitportal.open_file_in_neovim)
 
-        vim.keymap.set("v", "<leader>gc", function()
-            gitportal.copy_link_to_clipboard()
-        end)
+        vim.keymap.set("n", "<leader>gc", gitportal.copy_link_to_clipboard)
+        vim.keymap.set("v", "<leader>gc", gitportal.copy_link_to_clipboard)
     end,
 }
