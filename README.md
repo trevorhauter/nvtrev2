@@ -12,6 +12,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 
 
 ## Plugins
+- [beacon.nvim](https://github.com/DanilaMihailov/beacon.nvim) - CURSOR HIGHLIGHTER
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
 - [gitportal](https://github.com/trevorhauter/gitportal.nvim) - BRIDGES GAP BETWEEN GITHUB FILE EXPLORER AND NEOVIM 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
