@@ -96,3 +96,4 @@ vim.opt.colorcolumn = "120"
 
 vim.o.splitbelow = true
 vim.o.splitright = true
+vim.o.hidden = true

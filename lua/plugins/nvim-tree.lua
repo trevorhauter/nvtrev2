@@ -4,7 +4,7 @@ return {
         -- Define keybindings for nvim-tree
         { "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true } },
         { "<leader>n", ":NvimTreeFindFile<CR>", { noremap = true, silent = true } },
-        { "<C-t>", ":NvimTreeCollapse<CR>", { noremap = true, silent = true } },
+        { "<C-l>", ":NvimTreeCollapse<CR>", { noremap = true, silent = true } },
     },
     version = "*",
     lazy = false,
