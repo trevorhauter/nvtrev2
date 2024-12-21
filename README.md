@@ -12,6 +12,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 
 
 ## Plugins
+- [copilot.nvim](https://github.com/github/copilot.vim) - COPILOT (AI ASSIST) (TRIAL)
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - THEME
 - [gitportal](https://github.com/trevorhauter/gitportal.nvim) - BRIDGES GAP BETWEEN GITHUB FILE EXPLORER AND NEOVIM 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
