@@ -22,10 +22,12 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - SMOOTH SCROLLING
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - AUTO COMMENT
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - AUTO COMPLETE (Parenthesis, brackets, quotes, etc)
+- [nvim-notify](https://github.com/rcarriga/nvim-notify) - BETTER NOTIFICATIONS IN NEOVIM
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - FILE EXPLORER
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - SYNTAX HIGHLIGHTING
 - [nvim-treesitter-context](nvim-treesitter/nvim-treesitter-context) - LETS YOU KNOW WHERE YOU ARE (class, func, etc)
 - [quick-scope](https://github.com/unblevable/quick-scope) - IN-LINE NAVIGATION
+- [stand.nvim](https://github.com/mvllow/stand.nvim) - WELNESS REMINDERS
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - FUZZY FILE FINDER
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim) - TERMINAL INTEGRATION
 - [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
