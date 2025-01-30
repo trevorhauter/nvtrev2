@@ -70,5 +70,7 @@ return {
 
         -- Keymap to toggle ignore patterns
         vim.keymap.set("n", "<leader>pt", toggle_ignore_patterns)
+        -- Repeats the last search
+        vim.api.nvim_set_keymap("n", "<leader>pr", ":Telescope resume<CR>", { noremap = true, silent = true })
     end,
 }
