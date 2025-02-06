@@ -109,17 +109,8 @@ require("mason-lspconfig").setup({
 
         --pyright
         pyright = function()
-            lspconfig.pyright.setup({
-                settings = {
-                    python = {
-                        analysis = {
-                            -- TODO: It would be nice to understand this better and turn these back on someday.
-                            reportMissingTypeStubs = false,
-                            typeCheckingMode = "off",
-                        },
-                    },
-                },
-            })
+            -- this should just be set up in a project specific pyrightconfig.json file
+            lspconfig.pyright.setup({})
         end,
     },
 })
