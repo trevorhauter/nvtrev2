@@ -16,6 +16,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [gitportal](https://github.com/trevorhauter/gitportal.nvim) - BRIDGES GAP BETWEEN GITHUB FILE EXPLORER AND NEOVIM 
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - GIT INTEGRATION
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
+- [hardtime.nvim](https://github.com/m4xshen/hardtime.nvim) - BREAK BAD VIM HABITS
 - [LazyVim](https://github.com/LazyVim/LazyVim) - PLUGIN MANAGER
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - STATUS LINE
 - [lsp-zero (w/ mason)](https://github.com/VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
