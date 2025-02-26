@@ -18,6 +18,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) - FILE NAVIGATION
 - [hardtime.nvim](https://github.com/m4xshen/hardtime.nvim) - BREAK BAD VIM HABITS
 - [LazyVim](https://github.com/LazyVim/LazyVim) - PLUGIN MANAGER
+- [leap.nvim](https://github.com/ggandor/leap.nvim) - LEAP AROUND FILES QUICKLY
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - STATUS LINE
 - [lsp-zero (w/ mason)](https://github.com/VonHeikemen/lsp-zero.nvim) - LANGUAGE SERVERS | AUTOCOMPLETE
 - [neoscroll](https://github.com/karb94/neoscroll.nvim) - SMOOTH SCROLLING
@@ -31,6 +32,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [stand.nvim](https://github.com/mvllow/stand.nvim) - WELNESS REMINDERS
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - FUZZY FILE FINDER
 - [toggleterm](https://github.com/akinsho/toggleterm.nvim) - TERMINAL INTEGRATION
+- [vim-repeat](https://github.com/tpope/vim-repeat) - DEPENDENCY FOR LEAP
 - [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
 - [vimwiki](https://github.com/vimwiki/vimwiki) - NOTE TAKING & ORGANIZATION
 - [zenmode](https://github.com/folke/zen-mode.nvim) - DISTRACTION FREE EDITING
