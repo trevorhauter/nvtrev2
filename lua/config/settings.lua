@@ -13,6 +13,10 @@ vim.opt.termguicolors = true
 --
 -- == END NVIM-TREE CONFIG ==
 
+-- == BEGIN VIM-SURROUND CONFIG ==
+vim.g.surround_no_mappings = 1
+-- == END VIM-SURROUND CONFIG ==
+
 -- == BEGIN VIMWIKI CONFIG ==
 vim.o.compatible = false
 vim.cmd("filetype plugin on")
