@@ -25,6 +25,7 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [nerdcommenter](https://github.com/preservim/nerdcommenter) - AUTO COMMENT
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - AUTO COMPLETE (Parenthesis, brackets, quotes, etc)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify) - BETTER NOTIFICATIONS IN NEOVIM
+- [nvim-specter](https://github.com/nvim-pack/nvim-spectre) - PROJECT WIDE FIND/REPLACE
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - FILE EXPLORER
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - SYNTAX HIGHLIGHTING
 - [nvim-treesitter-context](nvim-treesitter/nvim-treesitter-context) - LETS YOU KNOW WHERE YOU ARE (class, func, etc)
