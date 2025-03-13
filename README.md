@@ -36,7 +36,6 @@ This isn't like [nvchad](https://nvchad.com/) or [kickstart.nvim](https://github
 - [vim-repeat](https://github.com/tpope/vim-repeat) - DEPENDENCY FOR LEAP
 - [vim-surround](https://github.com/tpope/vim-surround) - HTML TAG, BRACKET, AND CURLY BRACE EDITING
 - [vimwiki](https://github.com/vimwiki/vimwiki) - NOTE TAKING & ORGANIZATION
-- [zenmode](https://github.com/folke/zen-mode.nvim) - DISTRACTION FREE EDITING
 
 
 ## Current supported languages
