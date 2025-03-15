@@ -54,6 +54,15 @@ vim.api.nvim_create_autocmd("BufWritePost", {
     end,
 })
 
+vim.api.nvim_create_autocmd("BufWritePost", {
+    pattern = { "*.js", "*.ts", "*.tsx", "*.jsx" },
+    group = "AutoFormat",
+    callback = function()
+        vim.cmd("silent! !npx prettier --write %")
+        vim.cmd("edit")
+    end,
+})
+
 -- END AUTO FORMATTING STUFF
 
 -- SPECIAL KEY MAPS
