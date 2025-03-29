@@ -47,6 +47,7 @@ require("mason-lspconfig").setup({
         -- for python
         "pyright",
 
+        "solargraph",
         -- for javascript and typescript
         -- TODO: Update this to ts_ls... but it keeps yelling at me.
         "ts_ls",
