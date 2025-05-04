@@ -1,4 +1,7 @@
-# nvtrev2
+# nvtrev2 (deprecated!!)
+nvtrev2 has reached its end of life. But don't worry, check out [nvtrev3](https://github.com/trevorhauter/nvtrev3)!
+## Deprecated!
+
 "The elegantly named successor to the critically acclaimed nvtrev" - Trev
 
 This is my neovim config, documented, and simple to get running.
